@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/* 全体共通 */
+html {
+    color: #ffffff;
+    font-family: "DotGothic16", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+li {
+    list-style: none;
+}
+
+/* 背景 */
+.background {
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(background_image.png);
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+/* メイン */
+.contents {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-bottom: 100px;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 100px;
+}
+.colored {
+    color: #fd1eb1;
+}
+
+/* 題名 */
+.subtitle {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* 説明 */
+.movie {
+    max-width: 100%;
+    padding-bottom: 100px;
+}
+.header {
+    text-align: center;
+}
+.description {
+    font-size: 20px;
+    padding-top: 20px
+}
+.border {
+    border-bottom: solid 3px #ffffff;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.image {
+    padding-top: 20px;
+}
+
+/* フッター */
+.footer {
+    padding-top: 40px;
+    text-align: center;
+}
